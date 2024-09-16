@@ -10,7 +10,7 @@ python = "^3.11"
 streamlit = "^1.38.0"
 
 [openai]
-openai
+openai = "^1.2.0"
 
 [build-system]
 requires = ["poetry-core"]
