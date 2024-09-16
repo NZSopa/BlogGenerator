@@ -11,7 +11,8 @@ with st.sidebar:
 
     # API 키 입력 필드
     # openai_api_key = st.text_input("OpenAI API Key", type="password")
-    openai_api_key = st.secrets["OPENAI_API_KEY"]
+    # openai_api_key = st.secrets["OPENAI_API_KEY"]
+    openai_api_key = st.text_input("OpenAI API Key", type="password")
     google_api_key = st.text_input("Google API Key", type="password")
     google_cse_id = st.text_input("Google Custom Search Engine ID")
     
