@@ -9,6 +9,8 @@ readme = "README.md"
 python = "^3.11"
 streamlit = "^1.38.0"
 
+[openai]
+openai
 
 [build-system]
 requires = ["poetry-core"]
